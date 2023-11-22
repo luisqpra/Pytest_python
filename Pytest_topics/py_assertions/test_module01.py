@@ -1,4 +1,4 @@
-# run - pytest -s -v Pytest_topics/py_assertions/test_module01.py 
+# run - pytest -s -v Pytest_topics/py_assertions/test_module01.py
 def test_a0():
     print("This is my first test")
     assert 4 >= 3

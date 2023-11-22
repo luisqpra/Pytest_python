@@ -12,3 +12,4 @@ En el modulo 1 (test_module01.py), encontraras ejemplos de funciones aritmeticas
 En el modulo 2 (test_module02.py), encontraras ejemplos de testing en clases OOP
 En el modulo 3 (test_module03.py), encontraras ejemploos de casos fallidos
 En el modulo 4 (test_module04.py), encontraras ejemploos de casos donde se seleccionan metodos que no se testean (saltarlos)
+En el modulo 5 (test_module05.py), encontraras ejemploos de testing marcados para facilitar diversos testings
