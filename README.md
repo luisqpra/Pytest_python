@@ -21,7 +21,8 @@ En el modulo 3 (test_module03.py), encontraras ejemplos de casos fallidos espera
 En el modulo 4 (test_module04.py), encontraras ejemplos de casos donde se seleccionan metodos que no se testean (saltarlos)
 En el modulo 5 (test_module05.py), encontraras ejemplos de testing marcados para facilitar diversos testings
 En el modulo 6 (test_module06.py), encontraras ejemplos de casos donde se saltan metodos que fallan en el testing usando marks
-En el modulo 6 (test_module07.py), encontraras ejemplos de uso de parametros para ingresar valores establecidos a los metodos y testearlos
+En el modulo 7 (test_module07.py), encontraras ejemplos de uso de parametros para ingresar valores establecidos a los metodos y testearlos
+En el modulo 8 (test_module07.py), encontraras ejemplos de uso de testar metodos con fixture (basico)
 
 ## Test Outcomes
 
