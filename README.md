@@ -22,7 +22,8 @@ En el modulo 4 (test_module04.py), encontraras ejemplos de casos donde se selecc
 En el modulo 5 (test_module05.py), encontraras ejemplos de testing marcados para facilitar diversos testings
 En el modulo 6 (test_module06.py), encontraras ejemplos de casos donde se saltan metodos que fallan en el testing usando marks
 En el modulo 7 (test_module07.py), encontraras ejemplos de uso de parametros para ingresar valores establecidos a los metodos y testearlos
-En el modulo 8 (test_module07.py), encontraras ejemplos de uso de testar metodos con fixture (basico)
+En el modulo 8 (test_module08.py), encontraras ejemplos de uso de testar metodos con fixture (basico) para proporcionar datos o acciones de prueba antes de ejecutar las pruebas
+En el modulo 9 (test_module09.py), encontraras ejemplos de uso de fixture donde se toman valores y acciones iniciales predeterminadas para el testing de los metodos y luego se borran permitiento estar en el estado inicial
 
 ## Test Outcomes
 
