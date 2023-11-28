@@ -25,6 +25,23 @@ En el modulo 7 (test_module07.py), encontraras ejemplos de uso de parametros par
 En el modulo 8 (test_module08.py), encontraras ejemplos de uso de testar metodos con fixture (basico) para proporcionar datos o acciones de prueba antes de ejecutar las pruebas
 En el modulo 9 (test_module09.py), encontraras ejemplos de uso de fixture donde se toman valores y acciones iniciales predeterminadas para el testing de los metodos y luego se borran permitiento estar en el estado inicial
 En el modulo 10 (test_module10.py), encontraras ejemplos de uso de parametros para ingresar valores configurados en "conftest.py" que podras usar en los testing
+En el modulo 11 (test_module11.py), encontraras ejemplos de uso de mostrar caracteristicas de los metodos que se estan testeand.
+En el modulo 12 (test_module12.py), encontraras ejemplos de uso de multiple parametros evaluados con fixture.
+
+## Fixture scopes
+
+Fixtures are created when first requested by a test, and are destroyed based on their scope:
+
+    function: the default scope, the fixture is destroyed at the end of the test.
+
+    class: the fixture is destroyed during teardown of the last test in the class.
+
+    module: the fixture is destroyed during teardown of the last test in the module.
+
+    package: the fixture is destroyed during teardown of the last test in the package.
+
+    session: the fixture is destroyed at the end of the test session.
+
 
 ## Test Outcomes
 
