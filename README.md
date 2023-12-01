@@ -27,6 +27,7 @@ Directorio: Pytest_topics/
 * En el modulo 10 (test_module10.py), encontraras ejemplos de uso de parametros para ingresar valores configurados en "conftest.py" que podras usar en los testing
 * En el modulo 11 (test_module11.py), encontraras ejemplos de uso de mostrar caracteristicas de los metodos que se estan testeand.
 * En el modulo 12 (test_module12.py), encontraras ejemplos de uso de multiple parametros evaluados con fixture.
+* En el modulo 13 (test_module12.py), encontraras ejemplos de uso del testing en diferentes configuraciones de ambientes
 
 ## Fixture scopes
 
