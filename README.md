@@ -7,6 +7,7 @@ Tambien encontraras ejemplos basicos de [Hypothesis](https://hypothesis.readthed
 ## Documentación
 
 - Documentación oficial de Pytest: [https://docs.pytest.org](https://docs.pytest.org)
+Documentación oficial de Hypothesis: [https://docs.pytest.org](https://hypothesis.readthedocs.io)
 - Documentación personal: [Notion - Python Pytest](https://broadleaf-result-3b7.notion.site/Python-pytest-3ba9d2d68b1040b7a820611532d23a3f?pvs=4)
 
 ## Ejecución
