@@ -2,7 +2,7 @@
 
 Este proyecto es una guia base de como usar [Pytest](https://docs.pytest.org) para la realización de pruebas en Python. Aquí encontrarás una serie de módulos con ejemplos y casos de prueba que cubren diversas funcionalidades y características de Pytest.
 
-Tambien encontras ejemplos basicos de [Hypothesis][https://hypothesis.readthedocs.io] (Hypothesis_examples) para realizar pruebas de multiples paramtros. Esta libreria complementa muy bien a **Pytest**.
+Tambien encontraras ejemplos basicos de [Hypothesis][https://hypothesis.readthedocs.io] (Hypothesis_examples) para realizar pruebas de multiples paramtros. Esta libreria complementa muy bien a **Pytest**.
 
 ## Documentación
 
