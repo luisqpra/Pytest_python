@@ -1,59 +1,113 @@
-# Pytest 
+# Pytest Project
 
-Documentacion de "Pytest"
-https://docs.pytest.org
+Este proyecto es una guia base de como usar [Pytest](https://docs.pytest.org) para la realización de pruebas en Python. Aquí encontrarás una serie de módulos con ejemplos y casos de prueba que cubren diversas funcionalidades y características de Pytest.
 
-Documentacion personal
-https://broadleaf-result-3b7.notion.site/Python-pytest-3ba9d2d68b1040b7a820611532d23a3f?pvs=4
+## Documentación
 
-## RUN
+- Documentación oficial de Pytest: [https://docs.pytest.org](https://docs.pytest.org)
+- Documentación personal: [Notion - Python Pytest](https://broadleaf-result-3b7.notion.site/Python-pytest-3ba9d2d68b1040b7a820611532d23a3f?pvs=4)
 
-ejecutar pytest con el siguente comando cmd:
+## Ejecución
+
+Para ejecutar las pruebas, utiliza el siguiente comando en la terminal:
+
+```bash
 pytest -v --tb=no
+```
 
-## Modulos
+## Módulos
 
-Directorio: Pytest_topics/
+### Pytest_topics/
 
-* En el modulo 1 (test_module01.py), encontraras ejemplos de funciones aritmeticas
-* En el modulo 2 (test_module02.py), encontraras ejemplos de testing en clases OOP
-* En el modulo 3 (test_module03.py), encontraras ejemplos de casos fallidos esperados
-* En el modulo 4 (test_module04.py), encontraras ejemplos de casos donde se seleccionan metodos que no se testean (saltarlos)
-* En el modulo 5 (test_module05.py), encontraras ejemplos de testing marcados para facilitar diversos testings
-* En el modulo 6 (test_module06.py), encontraras ejemplos de casos donde se saltan metodos que fallan en el testing usando marks
-* En el modulo 7 (test_module07.py), encontraras ejemplos de uso de parametros para ingresar valores establecidos a los metodos y testearlos
-* En el modulo 8 (test_module08.py), encontraras ejemplos de uso de testar metodos con fixture (basico) para proporcionar datos o acciones de prueba antes de ejecutar las pruebas
-* En el modulo 9 (test_module09.py), encontraras ejemplos de uso de fixture donde se toman valores y acciones iniciales predeterminadas para el testing de los metodos y luego se borran permitiento estar en el estado inicial
-* En el modulo 10 (test_module10.py), encontraras ejemplos de uso de parametros para ingresar valores configurados en "conftest.py" que podras usar en los testing
-* En el modulo 11 (test_module11.py), encontraras ejemplos de uso de mostrar caracteristicas de los metodos que se estan testeand.
-* En el modulo 12 (test_module12.py), encontraras ejemplos de uso de multiple parametros evaluados con fixture.
-* En el modulo 13 (test_module13.py), encontraras ejemplos de uso del testing en diferentes configuraciones de ambientes
-* En el modulo 14 (test_module14.py), encontraras ejemplos de uso del testing usando archivos de configuracion para probar diferentes ambientes
+1. **test_module01.py**
+   - Ejemplos de funciones aritméticas.
 
-## Fixture scopes
+2. **test_module02.py**
+   - Ejemplos de pruebas en clases OOP.
 
-link: https://docs.pytest.org/en/6.2.x/fixture.html
+3. **test_module03.py**
+   - Ejemplos de casos de prueba con fallos esperados.
 
-Fixtures are created when first requested by a test, and are destroyed based on their scope:
+4. **test_module04.py**
+   - Ejemplos de casos donde se seleccionan métodos que no se prueban (saltarlos).
 
-* "function": the default scope, the fixture is destroyed at the end of the test.
+5. **test_module05.py**
+   - Ejemplos de pruebas marcadas para facilitar diversos testings.
 
-* "class": the fixture is destroyed during teardown of the last test in the class.
+6. **test_module06.py**
+   - Ejemplos de casos donde se saltan métodos que fallan en las pruebas usando marks.
 
-* "module": the fixture is destroyed during teardown of the last test in the module.
+7. **test_module07.py**
+   - Ejemplos de uso de parámetros para ingresar valores establecidos a los métodos y probarlos.
 
-* "package": the fixture is destroyed during teardown of the last test in the package.
+8. **test_module08.py**
+   - Ejemplos de uso de testing de métodos con fixture (básico) para proporcionar datos o acciones de prueba antes de ejecutar las pruebas.
 
-* "session": the fixture is destroyed at the end of the test session.
+9. **test_module09.py**
+   - Ejemplos de uso de fixture donde se toman valores y acciones iniciales predeterminadas para el testing de los métodos y luego se borran, permitiendo estar en el estado inicial.
 
+10. **test_module10.py**
+    - Ejemplos de uso de parámetros para ingresar valores configurados en "conftest.py" que puedes utilizar en las pruebas.
 
-## Test Outcomes
+11. **test_module11.py**
+    - Ejemplos de mostrar características de los métodos que se están testeando.
 
-* "PASSED (.)": The test ran successfully.
-* "FAILED (F)": The test did not run successfully (or XPASS + strict).
-* "SKIPPED (s)": The test was skipped. You can tell pytest to skip a test by using either the @pytest.mark.skip() or pytest.mark.skipif()
-decorators, discussed in Skipping Tests .
-* "xfail (x)": The test was expected to fail, so ran and failed. You can tell pytest that a test is expected to fail by using the @pytest.mark.xfail()
-decorator.
-* "XPASS (X)": The test was not supposed to pass but ran and passed.
-* "ERROR (E)": An exception happened outside of the test function, in either a fixture.
+12. **test_module12.py**
+    - Ejemplos de uso de múltiples parámetros evaluados con fixture.
+
+13. **test_module13.py**
+    - Ejemplos de testing en diferentes configuraciones de ambientes.
+
+14. **test_module14.py**
+    - Ejemplos de testing usando archivos de configuración para probar diferentes ambientes.
+
+### Fixture scopes
+
+Consulta la [documentación de Pytest sobre fixture scopes](https://docs.pytest.org/en/6.2.x/fixture.html) para entender los alcances de las fixtures.
+
+### Test Outcomes
+
+- **PASSED (.):** La prueba se ejecutó correctamente.
+- **FAILED (F):** La prueba no se ejecutó correctamente (o XPASS + strict).
+- **SKIPPED (s):** La prueba fue omitida. Puedes omitir una prueba utilizando los decoradores @pytest.mark.skip() o pytest.mark.skipif().
+- **xfail (x):** Se esperaba que la prueba fallara, por lo que se ejecutó y falló. Puedes indicar a Pytest que una prueba se espera que falle utilizando el decorador @pytest.mark.xfail().
+- **XPASS (X):** La prueba no debía pasar, pero se ejecutó y pasó.
+- **ERROR (E):** Ocurrió una excepción fuera de la función de prueba, ya sea en una fixture.
+
+## Estructura de Archivos
+
+```
+Pytest_topics/
+├── config/
+│   ├── prod.ini
+│   └── qa.ini
+├── conftest.py
+├── _first_prog.py
+├── __init__.py
+├── prod.prop
+├── py_assertions/
+│   ├── __init__.py
+│   └── test_module01.py
+├── py_fixtures/
+│   ├── conftest.py
+│   ├── __init__.py
+│   ├── test_module08.py
+│   ├── test_module09.py
+│   ├── test_module10.py
+│   ├── test_module11.py
+│   └── test_module12.py
+├── qa.prop
+├── test_module01.py
+├── test_module02.py
+├── test_module03.py
+├── test_module04.py
+├── test_module05.py
+├── test_module06.py
+├── test_module07.py
+├── test_module13.py
+├── test_module14.py
+└── utils/
+    ├── ConfigFileParser.py
+    ├── __init__.py
+    └── myconfigparser.py
+```
