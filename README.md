@@ -1,4 +1,4 @@
-# Pytest Project
+# Test unitario con Python
 
 Este proyecto es una guia base de como usar [Pytest](https://docs.pytest.org) para la realización de pruebas en Python. Aquí encontrarás una serie de módulos con ejemplos y casos de prueba que cubren diversas funcionalidades y características de Pytest.
 
